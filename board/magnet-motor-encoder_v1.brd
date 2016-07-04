@@ -133,46 +133,45 @@
 <hole x="-6" y="7" drill="3.2"/>
 <hole x="4" y="8" drill="3.2"/>
 <text x="0.7" y="8.04" size="0.9" layer="26" rot="MR0">Solder</text>
-<text x="1.15" y="0.15" size="0.9" layer="26" rot="SMR270">LEDs 2mA</text>
+<text x="1.13" y="0.94" size="0.9" layer="26" rot="SMR270">LEDs 2mA</text>
 <text x="-5.11" y="-3.57" size="0.7" layer="26" rot="MR0">YELLOW</text>
 <text x="-8.94" y="1.08" size="0.8" layer="26" rot="MR270">RED</text>
 <text x="-5.77" y="2.83" size="0.8" layer="26" rot="MR0">BLUE</text>
-<text x="1.08" y="4.3" size="0.9" layer="26" rot="MR0">for 3V3</text>
-<text x="9.14" y="-5.43" size="1.25" layer="25" rot="R90">-</text>
+<text x="1.79" y="4.26" size="0.9" layer="26" rot="MR0">for 3V3</text>
+<text x="8.49" y="-5.43" size="1.25" layer="25" rot="R90">-</text>
 <text x="6.68" y="-7.53" size="1.25" layer="26" rot="MR90">-</text>
 <text x="9.11" y="-3.56" size="1.25" layer="26" rot="MR90">I</text>
-<text x="9.45" y="-2.82" size="1.25" layer="25" rot="R90">I</text>
-<text x="9.05" y="2" size="1.25" layer="25" rot="R90">+</text>
+<text x="8.92" y="-2.73" size="1.25" layer="25" rot="R90">I</text>
+<text x="8.42" y="2.06" size="1.25" layer="25" rot="R90">+</text>
 <text x="9.32" y="2.05" size="1.25" layer="26" rot="MR90">+</text>
 <text x="7.38" y="7.75" size="1.25" layer="26" rot="SMR270">B</text>
-<text x="9.07" y="4.35" size="1.25" layer="25" rot="R90">B</text>
-<text x="7.77" y="-1.93" size="1.25" layer="25" rot="R90">A</text>
+<text x="8.81" y="4.44" size="1.25" layer="25" rot="R90">B</text>
+<text x="7.53" y="-1.75" size="1.25" layer="25" rot="R90">A</text>
 <text x="10.6" y="-1.18" size="1.25" layer="26" rot="SMR270">A</text>
 <text x="3.09" y="1.93" size="1.25" layer="26" rot="MR90">+</text>
 <text x="4.06" y="0.58" size="1.25" layer="26" rot="SMR270">A</text>
-<text x="4.05" y="-2.35" size="1.25" layer="26" rot="MR270">I</text>
+<text x="4.14" y="-2.34" size="1.25" layer="26" rot="MR270">I</text>
 <text x="4.25" y="-4.72" size="1.25" layer="26" rot="MR270">-</text>
 <text x="4.12" y="5.57" size="1.25" layer="26" rot="SMR270">B</text>
-<text x="-5.23" y="2.88" size="1.4224" layer="26" ratio="15" rot="SMR180">INC
+<text x="-5.47" y="3.42" size="1.6764" layer="26" ratio="15" rot="SMR180">INC
 DEC
 POWER</text>
-<text x="2.3" y="0.14" size="0.9" layer="26" rot="SMR270">low current</text>
+<text x="2.17" y="0.9" size="0.9" layer="26" rot="SMR270">low current</text>
 <text x="-0.89" y="-8.54" size="0.8128" layer="25" ratio="15" distance="44" align="center">Raphael
 Lehmann
 2016</text>
-<text x="-8.83" y="-4.91" size="1.25" layer="25" ratio="15" distance="44">v1</text>
-<text x="-5.54" y="3.73" size="1.25" layer="25" ratio="15" distance="44">v1</text>
-<text x="0.64" y="1.03" size="1.25" layer="25" ratio="15" distance="44">v1</text>
+<text x="-8.83" y="-4.7" size="1.25" layer="25" ratio="15" distance="44">v1</text>
+<text x="-6.59" y="3.23" size="1.25" layer="25" ratio="15" distance="44">v1</text>
 <text x="-7.23" y="-5.11" size="1.25" layer="26" ratio="15" distance="44" rot="MR0">v1</text>
 <text x="-3.27" y="3.76" size="1.25" layer="26" ratio="15" distance="44" rot="MR0">v1</text>
-<text x="-0.85" y="-8.1" size="0.8128" layer="26" ratio="15" distance="44" rot="MR0" align="center">Magnet
+<text x="-0.87" y="-7.49" size="0.8128" layer="26" ratio="15" distance="44" rot="MR0" align="center">Magnet
 Motor
 Encoder</text>
 <text x="0.88" y="10.2" size="1.016" layer="25" ratio="15" distance="44" rot="SR180">RCA</text>
-<text x="-0.94" y="-5.39" size="1.016" layer="26" ratio="15" distance="44" rot="SMR0">RCA</text>
+<text x="-0.65" y="-5.53" size="1.016" layer="26" ratio="15" distance="44" rot="SMR0">RCA</text>
 <text x="-8.84" y="2.33" size="1.016" layer="26" ratio="15" distance="44" rot="MR0">+</text>
-<text x="-8.04" y="0.66" size="1.016" layer="26" ratio="15" distance="44" rot="MR0">+</text>
-<text x="-8.04" y="-1.36" size="1.016" layer="26" ratio="15" distance="44" rot="MR0">+</text>
+<text x="-8.03" y="0.59" size="1.016" layer="26" ratio="15" distance="44" rot="MR0">+</text>
+<text x="-8.02" y="-1.41" size="1.016" layer="26" ratio="15" distance="44" rot="MR0">+</text>
 </plain>
 <libraries>
 <library name="austriamicrosystems">
@@ -1598,19 +1597,19 @@ Please make sure your boards conform to these design rules.</description>
 <element name="LED_RED" library="led" package="CHIPLED_0805" value="DEC" x="-7" y="0" smashed="yes" rot="MR90"/>
 <element name="LED_BLUE" library="led" package="CHIPLED_0805" value="POWER" x="-7" y="2" smashed="yes" rot="MR90"/>
 <element name="R1" library="resistor" package="R0805" value="1k" x="-7" y="-2" smashed="yes">
-<attribute name="VALUE" x="-5.472" y="-2.516" size="1" layer="25"/>
+<attribute name="VALUE" x="-5.392" y="-2.516" size="1" layer="25"/>
 </element>
 <element name="R2" library="resistor" package="R0805" value="1k" x="-7" y="0" smashed="yes">
-<attribute name="VALUE" x="-5.502" y="-0.556" size="1" layer="25"/>
+<attribute name="VALUE" x="-5.422" y="-0.546" size="1" layer="25"/>
 </element>
 <element name="R3" library="resistor" package="R0805" value="1k" x="-7" y="2" smashed="yes">
-<attribute name="VALUE" x="-5.542" y="1.534" size="1" layer="25"/>
+<attribute name="VALUE" x="-5.442" y="1.534" size="1" layer="25"/>
 </element>
 <element name="C1" library="resistor" package="C0805K" value="100n" x="-2" y="7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="-3.96" y="7.95" size="1.016" layer="25" rot="R270"/>
+<attribute name="VALUE" x="-3.99" y="8.24" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="C2" library="resistor" package="C0805K" value="10µ" x="0" y="7" smashed="yes" rot="R270">
-<attribute name="VALUE" x="0.89" y="7.28" size="1.016" layer="25" rot="R270"/>
+<attribute name="VALUE" x="0.97" y="7.96" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="SJ1" library="rca_sontiges" package="SJS" value="3V3?" x="-1" y="7" smashed="yes" rot="MR180"/>
 <element name="C3" library="resistor" package="C0805K" value="10µ" x="-0.45" y="-5.75" smashed="yes" rot="R180">
