@@ -7716,15 +7716,15 @@ Metric Code Size 5664</description>
 <parts>
 <part name="IC1" library="austriamicrosystems" deviceset="AS5040" device="" value="AS5045B"/>
 <part name="FRAME1" library="rca_templates" deviceset="FRAME_A4L" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805" value="YELLOW"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0805" value="RED"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805" value="BLUE"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
+<part name="LED_YELLOW" library="led" deviceset="LED" device="CHIPLED_0805" value="INC"/>
+<part name="LED_RED" library="led" deviceset="LED" device="CHIPLED_0805" value="DEC"/>
+<part name="LED_BLUE" library="led" deviceset="LED" device="CHIPLED_0805" value="POWER"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805K" value="10µ"/>
-<part name="SJ1" library="rca_sontiges" deviceset="SJ" device="S" value="5V?"/>
+<part name="SJ1" library="rca_sontiges" deviceset="SJ" device="S" value="3V3?"/>
 <part name="GND1" library="rca_sontiges" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -7748,9 +7748,9 @@ Metric Code Size 5664</description>
 <instances>
 <instance part="IC1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$1" x="-157.48" y="-88.9"/>
-<instance part="LED1" gate="G$1" x="-27.94" y="20.32"/>
-<instance part="LED2" gate="G$1" x="-43.18" y="20.32"/>
-<instance part="LED3" gate="G$1" x="-66.04" y="20.32"/>
+<instance part="LED_YELLOW" gate="G$1" x="-27.94" y="20.32"/>
+<instance part="LED_RED" gate="G$1" x="-43.18" y="20.32"/>
+<instance part="LED_BLUE" gate="G$1" x="-66.04" y="20.32"/>
 <instance part="R1" gate="G$1" x="-27.94" y="30.48" rot="R90"/>
 <instance part="R2" gate="G$1" x="-43.18" y="30.48" rot="R90"/>
 <instance part="R3" gate="G$1" x="-66.04" y="30.48" rot="R90"/>
@@ -7778,7 +7778,7 @@ Metric Code Size 5664</description>
 <nets>
 <net name="LED_RED" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED_RED" gate="G$1" pin="C"/>
 <pinref part="IC1" gate="G$1" pin="MAGDEC"/>
 <wire x1="-43.18" y1="15.24" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="5.08" x2="-17.78" y2="5.08" width="0.1524" layer="91"/>
@@ -7787,7 +7787,7 @@ Metric Code Size 5664</description>
 <net name="LED_YELLOW" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="MAGINC"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED_YELLOW" gate="G$1" pin="C"/>
 <wire x1="-17.78" y1="7.62" x2="-27.94" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="7.62" x2="-27.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
@@ -7795,21 +7795,21 @@ Metric Code Size 5664</description>
 <net name="R_LED_YELLOW" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED_YELLOW" gate="G$1" pin="A"/>
 <wire x1="-27.94" y1="25.4" x2="-27.94" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_LED_RED" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED_RED" gate="G$1" pin="A"/>
 <wire x1="-43.18" y1="25.4" x2="-43.18" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R_LED_BLUE" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED_BLUE" gate="G$1" pin="A"/>
 <wire x1="-66.04" y1="25.4" x2="-66.04" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7901,7 +7901,7 @@ Metric Code Size 5664</description>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED_BLUE" gate="G$1" pin="C"/>
 <wire x1="-66.04" y1="10.16" x2="-66.04" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
