@@ -7704,6 +7704,238 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ_2W">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ_2">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ2W" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="1wire">
+<description>&lt;h1&gt;Dallas/Maxim 1-Wire/iButton devices&lt;/h1&gt;
+&lt;p&gt;Onewire is a simple, low-cost bus system working with hundreds of devices on an up to 300m long one-wire (plus GND) bus system. It is relative slow (~16kBaud) but electrically undemanding, too. The onewire is hotplug-capable, if the host software supports it. The bus can be controlled by a single &amp;mu;C port pin or by special host adapter chips, which are available for RS232, Parallel, I&lt;sup&gt;2&lt;/sup&gt;C, and USB to onewire conversion. They are available as ready-to-run host adapter devices, too.&lt;/p&gt;
+&lt;p&gt;The chips on the bus can be powered through the bus line, this is called "parasite power". All neccesary circuit and capacities for parasite power are on chip. Some chips need an additional power source to provide all features.&lt;/p&gt;
+&lt;p&gt;iButton is an application for onewire devices, using special packaged onewire devices as keys or for data storage. All onewire chips have a unique serial number for technical reasons, and together with the hot-plug capability this makes them useable as unique keys. In addition, many onewire chips have additional memory (EPROM, EEPROM, RAM) on the chip, which can be used to store cryptographic keys. iButtons come in various packages which are protected against corrosive agents and weather influences.&lt;/p&gt;
+&lt;p&gt;Get more info at &lt;tt&gt;http://www.maxim-ic.com/1-Wire.cfm&lt;/tt&gt;&lt;/p&gt;
+&lt;p&gt;Linux driver at &lt;tt&gt;http://owfs.sf.net&lt;/tt&gt;&lt;/p&gt;
+&lt;h3&gt;Copyright notice:&lt;/h3&gt;
+&lt;p&gt;The devices in this library are copyrighted by various authors &amp;mdash; permission to use, distribute and modify this library is given to you at the terms of the LGPL. Copyright holders are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;&lt;/li&gt;
+&lt;li&gt;Giovanni Varasano &amp;lt;giovanni.varasano@fastwebnet.it&amp;gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The authorship for each device is given in the device notes.&lt;/p&gt;</description>
+<packages>
+<package name="TO92-">
+<description>&lt;b&gt;TO-92&lt;/b&gt;</description>
+<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.1524" layer="21" curve="-129.583345" cap="flat"/>
+<wire x1="1.136" y1="-0.127" x2="-1.136" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="1.1359" x2="-2.413" y2="-1.1359" width="0.1524" layer="51" curve="50.416655" cap="flat"/>
+<wire x1="-1.404" y1="-0.127" x2="-2.664" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.1524" layer="21" curve="13.038528" cap="flat"/>
+<wire x1="-1.136" y1="-0.127" x2="-1.404" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.1359" x2="2.413" y2="1.1359" width="0.1524" layer="51" curve="50.416655" cap="flat"/>
+<wire x1="2.664" y1="-0.127" x2="1.404" y2="-0.127" width="0.1524" layer="51"/>
+<wire x1="1.404" y1="-0.127" x2="1.136" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.1524" layer="21" curve="13.609443" cap="flat"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="0" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SO08">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
+<wire x1="2.159" y1="1.9558" x2="-2.159" y2="1.9558" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-1.9558" x2="2.54" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.54" y1="1.5748" x2="-2.159" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.159" y1="1.9558" x2="2.54" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-1.5748" x2="-2.159" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.159" y1="-1.9558" x2="2.159" y2="-1.9558" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.5748" x2="2.54" y2="1.5748" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.5748" x2="-2.54" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="-1.6002" x2="2.54" y2="-1.6002" width="0.0508" layer="21"/>
+<smd name="1" x="-1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="-1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="-0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="0.635" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
+<text x="3.937" y="-2.032" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-2.921" y="-1.905" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
+<rectangle x1="-2.159" y1="-3.0988" x2="-1.651" y2="-1.9558" layer="51"/>
+<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381" y1="-3.0734" x2="0.889" y2="-1.9304" layer="51"/>
+<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
+<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
+<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
+<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1W">
+<text x="-8.89" y="1.905" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<pin name="1W" x="-5.08" y="0" visible="pad" length="middle" direction="pwr"/>
+</symbol>
+<symbol name="IC">
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="5.715" y="0.635" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.715" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-1.905" size="3.81" layer="94" ratio="15">IC</text>
+</symbol>
+<symbol name="VDD-GND">
+<text x="-0.635" y="-0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.905" y="-2.54" size="1.27" layer="95" font="vector" rot="MR270">GND</text>
+<text x="1.905" y="2.54" size="1.27" layer="95" font="vector" rot="R90">VDD</text>
+<pin name="VDD" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS18S20" prefix="IC">
+<description>&lt;h2&gt;High Precision Digital Thermometer&lt;/h2&gt;
+&lt;p&gt;This chip provides a onewire thermosensor with approx. 0.5°C accuracy.A programmable over/undertemperure alarm is available.&lt;/p&gt;
+&lt;h3&gt;Notes:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Vdd must be applied for accurate measurements at low temperatures, as the parasite power circuit otherwise heats the sensor.&lt;/li&gt;
+&lt;li&gt;If parasite power is used, Vdd has to be connected to GND.&lt;/li&gt;
+&lt;li&gt;The DS1822 is a low-cost thermometer chip, the DS18B20 is similar to the DS18S20, but with 9..12 Bit programmable precision.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Author:&lt;/h3&gt;
+Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
+<gates>
+<gate name="A" symbol="IC" x="0" y="0" addlevel="always"/>
+<gate name="_1W" symbol="1W" x="-5.08" y="0" addlevel="request"/>
+<gate name="P" symbol="VDD-GND" x="0" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="TO92-">
+<connects>
+<connect gate="P" pin="GND" pad="1"/>
+<connect gate="P" pin="VDD" pad="3"/>
+<connect gate="_1W" pin="1W" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Z" package="SO08">
+<connects>
+<connect gate="P" pin="GND" pad="5"/>
+<connect gate="P" pin="VDD" pad="3"/>
+<connect gate="_1W" pin="1W" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7740,6 +7972,10 @@ Metric Code Size 5664</description>
 <part name="GND5" library="rca_sontiges" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
+<part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
+<part name="IC3" library="1wire" deviceset="DS18S20" device="" value="DS18B20"/>
+<part name="GND6" library="rca_sontiges" deviceset="GND" device=""/>
+<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7757,7 +7993,7 @@ Metric Code Size 5664</description>
 <instance part="C1" gate="G$1" x="-119.38" y="-48.26" rot="R180"/>
 <instance part="C2" gate="G$1" x="-91.44" y="-48.26" rot="R180"/>
 <instance part="SJ1" gate="1" x="-106.68" y="-40.64"/>
-<instance part="GND1" gate="1" x="-25.4" y="-17.78"/>
+<instance part="GND1" gate="1" x="-20.32" y="-15.24"/>
 <instance part="P+1" gate="1" x="33.02" y="17.78"/>
 <instance part="+3V1" gate="G$1" x="40.64" y="17.78"/>
 <instance part="P+2" gate="1" x="-66.04" y="45.72"/>
@@ -7772,6 +8008,12 @@ Metric Code Size 5664</description>
 <instance part="GND5" gate="1" x="27.94" y="-17.78"/>
 <instance part="P+5" gate="1" x="-43.18" y="45.72"/>
 <instance part="P+6" gate="1" x="-27.94" y="45.72"/>
+<instance part="SJ2" gate="G$1" x="-35.56" y="-30.48" rot="R270"/>
+<instance part="IC3" gate="A" x="-22.86" y="-48.26"/>
+<instance part="IC3" gate="P" x="-22.86" y="-48.26"/>
+<instance part="IC3" gate="_1W" x="-27.94" y="-48.26"/>
+<instance part="GND6" gate="1" x="-22.86" y="-60.96"/>
+<instance part="P+7" gate="1" x="-22.86" y="-35.56"/>
 </instances>
 <busses>
 </busses>
@@ -7854,6 +8096,11 @@ Metric Code Size 5664</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="43.18" x2="-27.94" y2="35.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P+7" gate="1" pin="+5V"/>
+<pinref part="IC3" gate="P" pin="VDD"/>
+<wire x1="-22.86" y1="-38.1" x2="-22.86" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -7877,12 +8124,12 @@ Metric Code Size 5664</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="-17.78" y1="-7.62" x2="-25.4" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-7.62" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-7.62" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PROG"/>
-<wire x1="-25.4" y1="-10.16" x2="-25.4" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-10.16" x2="-25.4" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-10.16"/>
+<wire x1="-20.32" y1="-10.16" x2="-20.32" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-10.16" x2="-20.32" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -7916,30 +8163,54 @@ Metric Code Size 5664</description>
 <pinref part="IC1" gate="G$1" pin="CLK"/>
 <wire x1="27.94" y1="-7.62" x2="17.78" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="INDEX" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="I"/>
-<pinref part="IC1" gate="G$1" pin="INDEX_W"/>
-<wire x1="-38.1" y1="-5.08" x2="-17.78" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="IC3" gate="P" pin="GND"/>
+<wire x1="-22.86" y1="-58.42" x2="-22.86" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="A"/>
-<wire x1="-38.1" y1="-10.16" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="-10.16" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-10.16" x2="-33.02" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-10.16" x2="-33.02" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="A_LSB_U"/>
-<wire x1="-35.56" y1="2.54" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="2.54" x2="-17.78" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="B"/>
-<wire x1="-38.1" y1="-12.7" x2="-33.02" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-12.7" x2="-33.02" y2="0" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-12.7" x2="-30.48" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-12.7" x2="-30.48" y2="0" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="B_DIR_V"/>
-<wire x1="-33.02" y1="0" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="0" x2="-17.78" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="-25.4" x2="-35.56" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="I"/>
+<wire x1="-35.56" y1="-5.08" x2="-38.1" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="-30.48" y1="-30.48" x2="-25.4" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-30.48" x2="-25.4" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="INDEX_W"/>
+<wire x1="-25.4" y1="-5.08" x2="-17.78" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC3" gate="_1W" pin="1W"/>
+<wire x1="-33.02" y1="-48.26" x2="-45.72" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-48.26" x2="-45.72" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="G$1" pin="3"/>
+<wire x1="-45.72" y1="-30.48" x2="-40.64" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
