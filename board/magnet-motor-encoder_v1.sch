@@ -7972,7 +7972,7 @@ Jan Kandziora &amp;lt;jjj@gmx.de&amp;gt;</description>
 <part name="GND5" library="rca_sontiges" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
+<part name="SJ2" library="jumper" deviceset="SJ2W" device="" value="IDX / TEMP"/>
 <part name="IC3" library="1wire" deviceset="DS18S20" device="" value="DS18B20"/>
 <part name="GND6" library="rca_sontiges" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
