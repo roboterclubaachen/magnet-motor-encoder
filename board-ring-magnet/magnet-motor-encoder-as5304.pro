@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=/opt/raphael/kicad-library/library
 [eeschema/libraries]
-LibName1=/home/raphael/src/RCA/magnet-motor-encoder/lib/kicad/rca_encoder_psk
+LibName1=../lib/kicad/rca_encoder_psk
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -59,6 +59,6 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/raphael/src/RCA/magnet-motor-encoder/lib/kicad/as5304
+LibName31=../lib/kicad/as5304
 LibName32=maxim
-LibName33=/home/raphael/src/RCA/magnet-motor-encoder/lib/kicad/solder_jumper
+LibName33=../lib/kicad/solder_jumper
