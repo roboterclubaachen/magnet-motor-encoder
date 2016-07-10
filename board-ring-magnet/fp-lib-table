@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name open-project)(type Legacy)(uri /home/raphael/src/RCA/magnet-motor-encoder/lib/kicad/open-project.mod)(options "")(descr ""))
   (lib (name Measurement_Points)(type KiCad)(uri /opt/raphael/kicad-library-github/Measurement_Points.pretty)(options "")(descr ""))
+  (lib (name MoutingHolesFine)(type Github)(uri https://github.com/hoskinstech/bjh-kicad-mountingholes-fp.pretty)(options "")(descr ""))
 )
