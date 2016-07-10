@@ -394,4 +394,16 @@ Wire Wire Line
 	8600 4100 8600 4200
 Wire Wire Line
 	8600 4500 8600 4650
+Text Label 4400 4350 0    60   ~ 0
+TMP_IDX
+Text Label 5100 4950 0    60   ~ 0
+IDX
+Text Label 3550 4950 0    60   ~ 0
+TMP
+Text Label 3950 3950 0    60   ~ 0
+A
+Text Label 3950 4050 0    60   ~ 0
+B
+Text Label 5100 3950 0    60   ~ 0
+AO
 $EndSCHEMATC
