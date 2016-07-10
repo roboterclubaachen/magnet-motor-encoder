@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.02" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -126,12 +126,6 @@
 </layers>
 <board>
 <plain>
-<circle x="0" y="0" radius="11" width="0.1" layer="20"/>
-<hole x="-6" y="-7" drill="3.2"/>
-<hole x="4" y="-8" drill="3.2"/>
-<hole x="9" y="0" drill="3.2"/>
-<hole x="-6" y="7" drill="3.2"/>
-<hole x="4" y="8" drill="3.2"/>
 <text x="1.52" y="7.96" size="0.8128" layer="26" rot="MR0">Solder 3V</text>
 <text x="1.14" y="1.65" size="0.9" layer="26" rot="SMR270">LEDs 2mA</text>
 <text x="-5.11" y="-3.57" size="0.8" layer="26" rot="MR0">YELLOW</text>
@@ -172,6 +166,26 @@ Lehmann
 2016</text>
 <text x="-4.61" y="3.98" size="1.016" layer="26" ratio="15" distance="44" rot="MR0">rev3</text>
 <text x="-3.66" y="-8.36" size="0.7" layer="25" font="vector" rot="SR353">+  DQ GND</text>
+<wire x1="-5.82" y1="9.32" x2="3.43" y2="10.45" width="0.1" layer="20" curve="-50.215193"/>
+<wire x1="10.88" y1="1.64" x2="6.28" y2="9.02" width="0.1" layer="20" curve="46.611973"/>
+<wire x1="10.88" y1="-1.57" x2="6.32" y2="-8.99" width="0.1" layer="20" curve="-46.681469"/>
+<wire x1="3.39" y1="-10.47" x2="-5.95" y2="-9.25" width="0.1" layer="20" curve="-50.641989"/>
+<wire x1="-8.36" y1="-7.15" x2="-8.27" y2="7.25" width="0.1" layer="20" curve="-81.710622"/>
+<wire x1="-8.37" y1="-7.14" x2="-8.05" y2="-6.79" width="0.1" layer="20"/>
+<wire x1="-5.6" y1="-8.8" x2="-8.06" y2="-6.8" width="0.1" layer="20" curve="161.917892"/>
+<wire x1="3.15" y1="-9.87" x2="6.02" y2="-8.58" width="0.1" layer="20" curve="-157.942671"/>
+<wire x1="10.51" y1="1.64" x2="10.53" y2="-1.56" width="0.1" layer="20" curve="174.275412"/>
+<wire x1="3.21" y1="10.02" x2="6.09" y2="8.67" width="0.1" layer="20" curve="168.438521"/>
+<wire x1="-5.55" y1="8.98" x2="-7.97" y2="6.93" width="0.1" layer="20" curve="-168.517767"/>
+<wire x1="-5.95" y1="-9.25" x2="-5.6" y2="-8.8" width="0.1" layer="20"/>
+<wire x1="-8.27" y1="7.25" x2="-7.97" y2="6.93" width="0.1" layer="20"/>
+<wire x1="-5.82" y1="9.32" x2="-5.55" y2="8.98" width="0.1" layer="20"/>
+<wire x1="3.21" y1="10.03" x2="3.37" y2="10.47" width="0.1" layer="20"/>
+<wire x1="6.09" y1="8.67" x2="6.28" y2="9.02" width="0.1" layer="20"/>
+<wire x1="10.51" y1="1.64" x2="10.88" y2="1.64" width="0.1" layer="20"/>
+<wire x1="10.88" y1="-1.57" x2="10.53" y2="-1.56" width="0.1" layer="20"/>
+<wire x1="6.32" y1="-9" x2="6.02" y2="-8.58" width="0.1" layer="20"/>
+<wire x1="3.15" y1="-9.87" x2="3.39" y2="-10.47" width="0.1" layer="20"/>
 </plain>
 <libraries>
 <library name="austriamicrosystems">
