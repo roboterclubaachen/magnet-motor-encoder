@@ -313,7 +313,7 @@ U 1 1 578189A0
 P 5000 3950
 F 0 "W2" H 5000 4220 50  0000 C CNN
 F 1 "AO" H 5000 4150 50  0000 C CNN
-F 2 "SMD_Packages:1Pin" H 5200 3950 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5200 3950 50  0001 C CNN
 F 3 "" H 5200 3950 50  0000 C CNN
 	1    5000 3950
 	0    -1   -1   0   
@@ -326,7 +326,7 @@ U 1 1 57818B75
 P 7100 4800
 F 0 "W1" H 7100 5070 50  0000 C CNN
 F 1 "GND" H 7100 5000 50  0000 C CNN
-F 2 "SMD_Packages:1Pin" H 7300 4800 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7300 4800 50  0001 C CNN
 F 3 "" H 7300 4800 50  0000 C CNN
 	1    7100 4800
 	1    0    0    -1  
