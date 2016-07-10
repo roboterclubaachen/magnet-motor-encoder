@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name open-project)(type Legacy)(uri /home/raphael/src/RCA/magnet-motor-encoder/lib/kicad/open-project.mod)(options "")(descr ""))
+)
