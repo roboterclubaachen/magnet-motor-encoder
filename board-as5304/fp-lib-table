@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name open-project)(type Legacy)(uri ../lib/kicad/open-project.mod)(options "")(descr ""))
   (lib (name Measurement_Points)(type Github)(uri https://github.com/KiCad/Measurement_Points.pretty)(options "")(descr ""))
-  (lib (name MoutingHolesFine)(type Github)(uri https://github.com/hoskinstech/bjh-kicad-mountingholes-fp.pretty)(options "")(descr ""))
+  (lib (name MoutingHolesFine)(type Github)(uri https://github.com/rleh/bjh-kicad-mountingholes-fp.pretty)(options "")(descr ""))
 )
