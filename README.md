@@ -39,5 +39,6 @@ Das Sensorarray im IC befindet sich exakt 28 mm vom Loch für die Motorachse ent
 * Blaue LED: Power
 * Am Testpoint **AO** kann eine von der Magnetfeldstärke abhängige Spannung (gegen Testpoint **GND**) gemessen werden.
 
+![AS5304 Board 3D Ansicht (mit KiCad gerendert)](img/board_as5304_3drender1.png)
 ![AS5304 Board Bottom](img/board_as5304_bottom.png)
 ![AS5304 Board Top](img/board_as5304_top.png)
