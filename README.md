@@ -42,3 +42,10 @@ Das Sensorarray im IC befindet sich exakt 28 mm vom Loch für die Motorachse ent
 ![AS5304 Board 3D Ansicht (mit KiCad gerendert)](img/board_as5304_3drender1.png)
 ![AS5304 Board Bottom](img/board_as5304_bottom.png)
 ![AS5304 Board Top](img/board_as5304_top.png)
+
+
+## License
+
+Copyright Raphael Lehmann 2016
+
+Licensed under CERN OHL v.1.2
