@@ -11367,6 +11367,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="IC3" library="1wire" deviceset="DS18S20" device="" value="DS18B20"/>
 <part name="GND6" library="rca_sontiges" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
+<part name="GND7" library="rca_sontiges" deviceset="GND" device=""/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="4k7"/>
 </parts>
 <sheets>
 <sheet>
@@ -11405,6 +11407,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="IC3" gate="_1W" x="-27.94" y="-48.26"/>
 <instance part="GND6" gate="1" x="-22.86" y="-60.96"/>
 <instance part="P+7" gate="1" x="-22.86" y="-35.56"/>
+<instance part="GND7" gate="1" x="38.1" y="-27.94"/>
+<instance part="R4" gate="G$1" x="38.1" y="-15.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11559,6 +11563,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="IC3" gate="P" pin="GND"/>
 <wire x1="-22.86" y1="-58.42" x2="-22.86" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-25.4" x2="38.1" y2="-20.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="A" class="0">
 <segment>
@@ -11602,6 +11611,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-45.72" y1="-48.26" x2="-45.72" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="3"/>
 <wire x1="-45.72" y1="-30.48" x2="-40.64" y2="-30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="CSN"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="-5.08" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-5.08" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
