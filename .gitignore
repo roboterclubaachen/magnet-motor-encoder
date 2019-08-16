@@ -10,6 +10,7 @@
 *-cache.lib
 # *-rescue.lib
 ftp-lib-table
+fp-info-cache
 
 # for external tools
 *.dsn

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name as5045)(type Legacy)(uri ${KIPRJMOD}/../lib/kicad/as5045.lib)(options "")(descr ""))
+)
