@@ -64,7 +64,7 @@ Spannung     | Null-Ohm-Widerstands (Beschriftung "3V")
 
 Mittels Null-Ohm-Widerständen können wahlweise das ABI- oder das serielle Interface aktiviert werden.
 
-![AS5045B rev10 Bottom Draufsicht](img/board-as5045b_rev10_bottom_vertical.png)
+![AS5045B rev10 Bottom Draufsicht](img/board_as5045b_rev10_bottom_vertical.png)
 
 Zur Nutzung des ABI-Interfaces müssen die drei Null-Ohm-Widerstände innerhalb der blauen Markierung eingelötet werden.
 
